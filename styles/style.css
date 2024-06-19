@@ -20,6 +20,11 @@ body {
    
 }
 
+.img-logo {
+    width: 250px;
+    height: 81px;
+}
+
 .texte-logo {
     border-left: solid black 2px;
     padding-left: 10px;
@@ -121,13 +126,13 @@ section {
     justify-content: center;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    padding: 1px;
 
 }
 
 p {
     justify-content: center;
     align-items: center;
-    padding: 15px;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
