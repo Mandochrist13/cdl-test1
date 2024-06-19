@@ -1,0 +1,234 @@
+
+
+body {
+    background-color:  rgba(158, 12, 57, 1);
+}
+.entete {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 81px;
+    padding: 0 20px 0px 50px;
+}
+
+
+.groupe-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+}
+
+.texte-logo {
+    border-left: solid black 2px;
+    padding-left: 10px;
+}
+
+.texte-logo1 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.texte-logo2 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.trad{
+    width: 200px;
+    height: 40px;
+    background-color: rgba(158, 12, 57, 1);
+    border: solid beige 1px;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue ;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+}
+
+.arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #fff;
+    transition: transform ease-in-out 0.3s;
+  }
+
+  .trad-content {
+    list-style: none;
+    position: absolute;
+    top: 3.2em;
+    width: 180px;
+    height: 40px;
+  }
+  .trad-content li {
+    background: rgba(158, 12, 57, 1);
+    border-radius: 0.5em;
+    border: solid beige 1px;
+  }
+  .trad-content li:hover {
+    background: rgb(197, 88, 121);
+  }
+  .trad-content li a {
+    display: block;
+    padding: 0.7em 0.5em;
+    color: #fff;
+    margin: 0.1em 0;
+    text-decoration: none;
+  }
+  .trad-content {
+    /* ... */
+    visibility: hidden;
+  }
+  .trad:focus + .trad-content {
+    visibility: visible;
+  } 
+  .trad:focus > .arrow {
+    transform: rotate(180deg);
+  }
+
+
+section {
+    margin-top: 100px;
+    padding-left: 100px;
+}
+
+.texte {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section1 {
+    display: flex;
+    gap: 55px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.p {
+    width: 100%;
+    height: 52px;
+    background-color: rgba(41, 156, 255, 1);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+p {
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.img {
+    margin-top: 30px;
+}
+
+.img3 {
+    margin-top: 40px;
+}
+
+.img5 {
+    margin-top: 20px;
+}
+
+.img6 {
+    margin-top: 20px;
+}
+
+.block1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 184px;
+    height: 189px;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 184px;
+    height: 189px;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.block3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 184px;
+    height: 189px;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+.section2 {
+    display: flex;
+    gap: 55px;
+    align-items: center;
+    
+}
+
+.block4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 184px;
+    height: 189px;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.block5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 184px;
+    height: 189px;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.block6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 184px;
+    height: 189px;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
